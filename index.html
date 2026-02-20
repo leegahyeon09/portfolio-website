@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>이가현 | 포트폴리오</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">포트폴리오</div>
+    <ul class="nav-links">
+      <li><a href="#about">소개</a></li>
+      <li><a href="#projects">프로젝트</a></li>
+      <li><a href="#skills">핵심역량</a></li>
+      <li><a href="#contact">연락처</a></li>
+    </ul>
+    <button id="theme-toggle" class="theme-btn" aria-label="테마 전환">🌙</button>
+  </nav>
+
+  <section id="hero" class="section">
+    <div class="hero-content container">
+      <img src="images/profile.jpg" alt="프로필 사진" class="profile-pic"/>
+      <h1>구조와 데이터를 이해하며 성장하는 개발자, <br> 이가현입니다</h1>
+      <p class="hero-sub">
+        인하공업전문대학교 컴퓨터정보공학과에서 공부하며 <strong>웹 기반 서비스를 개발</strong>해왔습니다.<br>
+        기능 구현뿐 아니라 <strong>데이터 구조와 흐름을 함께 설계하는 과정</strong>에 관심을 가지고 있습니다.
+      </p>
+
+      <div class="buttons">
+        <a href="#about" class="btn primary">더 알아보기</a>
+        <a href="#contact" class="btn">📧 연락하기</a>
+        <a class="btn" onclick="window.print()" style="cursor:pointer;">🖨️ 출력하기</a>
+      </div>
+
+      <div class="stats">
+        <div>
+          <strong>3+</strong>
+          <p>년간의 개발 학습</p>
+        </div>
+        <div>
+          <strong>10+</strong>
+          <p>완료 프로젝트</p>
+        </div>
+        <div>
+          <strong>100%</strong>
+          <p>피드백 반영</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="text-center">
+        <h2>저를 소개합니다 </h2>
+        <p class="subtitle">
+          사용자 경험을 고려하되, 데이터 구조와 흐름을 함께 고민하며 성장해왔습니다.
+        </p>
+      </div>
+
+      <div class="intro-text">
+        <p>
+          학업과 다양한 프로젝트를 통해 기능 구현에 그치지 않고
+          <strong>문제를 정의하고 구조적으로 해결하는 과정</strong>을 중요하게 생각하게 되었습니다.
+        </p>
+
+        <p>
+          웹·모바일 서비스를 개발하며 단순한 화면 구현을 넘어
+          <strong>데이터 흐름과 기능 간 연계 구조</strong>를 함께 고민하는 개발 방식을 익혔습니다.<br>
+          서비스의 동작 원리를 이해하기 위해 데이터가 어떻게 저장되고 연결되는지에 대해 꾸준히 탐구해왔습니다.
+        </p>
+
+        <p>
+          개발에서 중요하게 생각하는 가치는
+          <strong>정확한 설계, 문서화, 협업</strong>입니다.<br>
+          설계 의도를 정리하고 공유하는 과정을 통해 팀 프로젝트의 완성도를 높이는 경험을 쌓았습니다.
+        </p>
+
+        <p>
+          센서 기반 인터랙션, 데이터 분석, 웹·모바일 프로젝트 등
+          다양한 경험을 통해
+          <strong>기술 선택의 기준</strong>과
+          <strong>구조적인 해결 방법</strong>을 고민해왔습니다.
+        </p>
+
+        <p>
+          데이터 구조를 정리하고 기능 간 흐름을 문서화하며
+          무결성과 일관성을 유지하는 설계의 중요성을 배우게 되었습니다.
+        </p>
+
+        <p>
+          단순히 동작하는 코드를 작성하는 것을 넘어
+          <strong>서비스의 기반을 이해하고 설계할 수 있는 개발자</strong>로 성장하고 있습니다.
+        </p>
+      </div>
+    </div>
+
+
+      <div class="grid four-cols features">
+        <div class="card">
+          <div class="icon">💻</div>
+          <h3>문제 해결</h3>
+          <p>코드를 통해 문제를 분석하고, 효율적인 해결 방법을 찾아내는 과정을 즐깁니다.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🤝</div>
+          <h3>협업 중심</h3>
+          <p>팀 프로젝트에서 역할을 명확히 나누고, 함께 완성해 나가는 경험을 중요하게 생각합니다.</p>
+        </div>
+        <div class="card">
+          <div class="icon">💡</div>
+          <h3>꾸준한 학습</h3>
+          <p>새로운 기술을 배우는 데 두려움이 없으며, 학습한 내용을 프로젝트에 바로 적용합니다.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🎯</div>
+          <h3>목표 지향</h3>
+          <p>작은 목표라도 끝까지 완성하는 것을 원칙으로 삼고 있습니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="highlights" class="section">
+  <div class="container">
+    <h2 class="text-center">학력 · 자격증 · 수상</h2>
+    <p class="text-center muted">학업 과정에서 쌓아온 이력과 성과입니다.</p>
+
+    <div class="grid three-cols">
+      <div class="card list-card">
+        <h3>🎓 Education</h3>
+        <ul class="timeline">
+          <li>
+            <span class="badge-date">2022.03 ~ 2026.02</span>
+            <div class="tl-body">
+              <strong>인하공업전문대학</strong><br/>
+              컴퓨터정보공학과 졸업
+            </div>
+          </li>
+          <li>
+            <span class="badge-date">2019.03 ~ 2021.12</span>
+            <div class="tl-body">
+              <strong>인성여자고등학교</strong><br/>
+              교육복지학과 졸업
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card list-card">
+        <h3>📜 Certificate</h3>
+        <ul class="timeline">
+          <li>
+            <span class="badge-date">2025.09</span>
+            <div class="tl-body">
+              <strong>정보처리산업기사</strong><br/>한국산업인력공단
+            </div>
+          </li>
+          <li>
+            <span class="badge-date">2024.08</span>
+            <div class="tl-body">
+              <strong>리눅스마스터 2급</strong><br/>정보통신기술자격검정
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card list-card">
+        <h3>🏆 Award</h3>
+        <ul class="timeline">
+          <li>
+            <span class="badge-date">2025.01</span>
+            <div class="tl-body">
+              <strong>동계학술대회 우수논문상</strong><br/>노인 치매 예방 애플리케이션 설계 및 구현
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2 class="text-center">프로젝트</h2>
+      <p class="text-center muted">다양한 기술을 활용하여 완성한 프로젝트들을 소개합니다.</p>
+
+      <div class="grid three-cols project-list">
+        <div class="project-card">
+          <img src="images/strayspotter.png" alt="StraySpotter 유기견 신고 앱" />
+          <div class="project-content">
+            <h3>StraySpotter</h3>
+            <p>
+              위치 기반 유기견 신고 및 정보 공유를 위한 모바일 앱입니다.
+              Firebase 인증과 실시간 데이터베이스를 활용해 신고 등록, 댓글,
+              지도 기반 시각화를 지원합니다.
+            </p>
+             <div class="tags">
+              <span>Android</span>
+              <span>Java</span>
+              <span>Firebase DB</span>
+              <span>Google Maps API</span>
+              <span>Location API</span>
+              <span>Mobile App</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/wheelgo.png" alt="WheelGo 교통약자 버스 탑승 지원 앱" />
+          <div class="project-content">
+            <h3>WheelGo</h3>
+            <p>
+              휠체어 이용 승객이 버스 탑승·하차 의사를
+              운전자에게 전달하는 위치 기반 교통약자 지원 서비스입니다.
+              GPS 추적, 경로 안내, 도착 알림 기능을 제공합니다.
+            </p>
+            <div class="tags">
+              <span>React Native</span>
+              <span>JavaScript</span>
+              <span>MySQL</span>
+              <span>Firebase Auth</span>
+              <span>Naver Map API</span>
+              <span>Figma</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-project="movie_review_service">
+          <img src="images/movie-review.png" alt="영화 리뷰 웹 서비스" />
+          <div class="project-content">
+            <h3>영화 리뷰 웹 서비스</h3>
+            <p>
+              JSP와 MySQL로 구현한 영화 리뷰 웹 서비스입니다. 
+              영화 검색, 별점 및 리뷰 작성,
+              마이페이지 기반 사용자 관리 기능을 제공합니다.
+            </p>
+            <div class="tags">
+              <span>JSP</span>
+              <span>Servlet</span>
+              <span>Java</span>
+              <span>MySQL</span>
+              <span>JDBC</span>
+              <span>Web Service</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top:30px;">
+      <a href="projects.html" class="btn primary">더 많은 프로젝트 보기 ➜</a>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <div class="container">
+    <h2 class="text-center">핵심 역량 & 사례</h2>
+      <p class="text-center muted">저의 핵심 역량을 실제 사례로 정리했습니다.</p>
+
+
+    <div class="grid two-cols equal-cards">
+      <div class="card" style="text-align:left;">
+        <h3>💡 문제 해결</h3>
+        <ul class="bullet">
+          <li><strong>학사 출석 관리 시스템 오류 해결</strong>: 출석 체크 시 중복 저장 문제를 발견하여 데이터 검증 로직 추가 → 중복 오류를 제거.</li>
+          <li><strong>노인 치매 예방 게임 정확도 향상</strong>: Skeleton 인식이 불안정했던 구간을 인식 안정화를 위한 처리 로직 추가.</li>
+          <li><strong>여행 데이터 분석 자동화</strong>: Google Trends / DataLab 데이터를 자동 병합하는 파이프라인 구성 → 분석 시간 50%↓.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="text-align:left;">
+        <h3>🤝 협업 중심</h3>
+        <ul class="bullet">
+          <li><strong>WheelGo 팀 프로젝트</strong>: 기획·개발을 담당하며 팀원(백엔드·개발·디자인) 간 요구사항 조율 및 화면 흐름 정리.</li>
+          <li><strong>유기견 StraySpotter 팀 경험</strong>: 지도 기반 기능·데이터 흐름을 문서화해 개발자 간 이해 차이 제거.</li>
+          <li><strong>회의·결정 히스토리 정리</strong>: 팀플 진행 시 Notion으로 회의 내용/업무 분배를 기록해 협업 투명성 강화.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="text-align:left;">
+        <h3>📚 꾸준한 학습</h3>
+        <ul class="bullet">
+          <li><strong>웹 개발 학습 과정</strong>: HTML/CSS/JS → JSP·MySQL → React 중심의 프론트엔드 개발 경험을 확장.</li>
+          <li><strong>데이터 분석 스킬 향상</strong>: Pandas 기반 데이터 분석 / 시계열 분석 학습 후 여행트렌드 분석 프로젝트에 즉시 적용.</li>
+          <li><strong>Kinect·Skeleton 처리 학습</strong>: 생소한 기술이었지만 문서·샘플 코드 분석을 통해 게임 완성까지 독자 구현.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="text-align:left;">
+        <h3>💾 데이터 설계 & 구조 이해</h3>
+        <ul class="bullet">
+          <li><strong>데이터 구조 설계 경험</strong> : 모바일 및 웹 프로젝트에서 데이터 흐름을 정의하고, 중복을 최소화하도록 구조를 설계.</li>
+          <li><strong>데이터 일관성 확보</strong> : 출석 관리 기능 구현 과정에서 중복 저장 문제를 분석하고 입력 단계의 검증 로직을 추가해 데이터 일관성을 유지.</li>
+          <li><strong>MySQL · Firebase 활용</strong> : MySQL 기반 프로젝트에서 관계형 데이터 흐름을 경험하고, Firebase Realtime Database를 활용해 데이터 동기화 구조를 설계.</li>
+        </ul>
+      </div>
+  </section>
+
+  <section class="section alt" id="tools-section">
+    <div class="container">
+
+      <div class="grid four-cols" style="margin-top:30px;">
+        <div class="card">
+          <h3>🎨 도구 및 기타 기술</h3>
+          <div class="tool-tags">
+            <span>VS Code</span>
+            <span>Figma</span>
+            <span>Android Studio</span>
+            <span>Eclipse</span>
+            <span>IntelliJ IDEA</span>
+            <span>GitHub</span>
+            <span>GitHub Pages</span>
+            <span>Notion</span>
+            <span>Chrome DevTools</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid four-cols" style="margin-top:30px;">
+        <div class="card text-center">
+          <div class="icon" style="font-size:30px;">🌐</div>
+          <h3>웹 개발</h3>
+          <p class="muted">반응형 웹사이트</p>
+        </div>
+        <div class="card text-center">
+          <div class="icon" style="font-size:30px;">📱</div>
+          <h3>모바일 대응</h3>
+          <p class="muted">모바일 최적화</p>
+        </div>
+        <div class="card text-center">
+          <div class="icon" style="font-size:30px;">🔗</div>
+          <h3>버전 관리</h3>
+          <p class="muted">Git 워크플로우</p>
+        </div>
+        <div class="card text-center">
+          <div class="icon" style="font-size:30px;">💾</div>
+          <h3>클린 코드</h3>
+          <p class="muted">가독성 높은 코드</p>
+        </div>
+      </div>
+
+      <div class="skills">
+        <div class="skill">
+          <div class="skill-label"><span>Frontend Development</span><span class="primary">80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+      <div class="skill">
+          <div class="skill-label"><span>Backend Development</span><span class="primary">60%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+        </div>
+      <div class="skill">
+          <div class="skill-label"><span>UI/UX Design</span><span class="primary">55%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:55%"></div></div>
+        </div>
+      <div class="skill">
+          <div class="skill-label"><span>Database Management</span><span class="primary">75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2 class="text-center">연락처</h2>
+      <p class="text-center muted">프로젝트 문의나 협업 제안이 있으시면 언제든 연락해 주세요.</p>
+
+      <div class="grid two-cols contact-grid">
+        <div class="info">
+          <h3>연락 정보</h3>
+          <div class="info-item">
+            <div class="info-emoji">📧</div>
+            <div>
+              <p class="label">이메일</p>
+              <p class="muted">dlrkgusaa@naver.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-emoji">📞</div>
+            <div>
+              <p class="label">전화번호</p>
+              <p class="muted">010-5212-8642</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-emoji">📍</div>
+            <div>
+              <p class="label">위치</p>
+              <p class="muted">인천, 대한민국</p>
+            </div>
+          </div>
+
+          <h4 style="margin-top:20px;">빠른 응답 시간</h4>
+          <p class="muted">
+            보통 12시간 이내에 응답드립니다. 급한 프로젝트의 경우 더 빠른 응답이 가능합니다.
+          </p>
+
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/leeegahyeon-b18783399/" class="btn">LinkedIn</a>
+            <a href="https://github.com/leegahyeon09" class="btn">GitHub</a>
+            <a href="https://blog.naver.com/dlrkgusaa" class="btn">Blog</a>
+          </div>
+        </div>
+
+        <div class="card" style="text-align:left;">
+          <h3>메시지 보내기</h3>
+          <form id="contact-form" action="https://formspree.io/f/mkgqrrzn" method="POST">
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" placeholder="성함을 입력해주세요" required />
+
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" placeholder="이메일 주소를 입력해주세요" required />
+
+            <label for="message">메시지</label>
+            <textarea id="message" name="message" rows="5" placeholder="프로젝트나 협업에 대해 자세히 알려주세요" required></textarea>
+
+            <button type="submit" class="btn primary">✈️ 메시지 전송</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h3>포트폴리오</h3>
+        <p class="muted">
+          창의적이고 효율적인 웹 솔루션을 만드는 프론트엔드 개발자 지망생입니다.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>퀵 링크</h4>
+        <ul>
+          <li><a href="#about">소개</a></li>
+          <li><a href="#projects">프로젝트</a></li>
+          <li><a href="#skills">핵심역량</a></li>
+          <li><a href="#contact">연락처</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-connect">
+        <h4>연결하기</h4>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/leeegahyeon-b18783399/" aria-label="LinkedIn" class="icon-box">🐙</a>
+          <a href="https://github.com/leegahyeon09" aria-label="GitHub" class="icon-box">💼</a>
+          <a href="mailto:dlrkgusaa@naver.com" aria-label="Email" class="icon-box">✉️</a>
+        </div>
+        <p class="muted" style="margin-top: 12px;">새로운 기회와 협업을 환영합니다!</p>
+      </div>
+    </div>
+</footer>
+
+  <script>
+  const toggleBtn = document.getElementById("theme-toggle");
+  const saved = localStorage.getItem("theme");
+  if (saved === "dark" || (!saved && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.classList.add("dark");
+    toggleBtn.textContent = "☀️";
+  }
+
+  toggleBtn.addEventListener("click", () => {
+    const html = document.documentElement;
+    const isDark = html.classList.toggle("dark");
+    toggleBtn.textContent = isDark ? "☀️" : "🌙";
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+  });
+
+  document.getElementById("contact-form").addEventListener("submit", function() {
+    alert("메시지가 전송되었습니다! 감사합니다 🙌");
+  });
+  </script>
+</body>
+</html>
